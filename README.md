@@ -1,0 +1,2 @@
+# PayhipDiscordBot
+PayhipDiscordBot by RikkoMatsumatoOfficial
