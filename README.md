@@ -1,2 +1,2 @@
 # PayhipDiscordBot
-PayhipDiscordBot by RikkoMatsumatoOfficial
+WIP!!!
