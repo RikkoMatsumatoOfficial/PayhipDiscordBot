@@ -82,7 +82,7 @@ class PayhipMonitor:
 
     async def send_notification(self, channel, order: PayhipOrder):
         embed = discord.Embed(
-            title="🎉 New Order!",
+            title="Someone is buying you're digital product!!!",
             color=discord.Color.green(),
             description=f"**Order ID:** `{order.id}`"
         )
@@ -117,7 +117,7 @@ class PayhipMonitor:
         if not self.bot_running:
             return
             
-        self.log("🛑 Stopping bot...")
+        self.log("Stopping bot...")
         self.bot_running = False
         
         # Stop the order checking loop
@@ -134,7 +134,7 @@ def main():
     monitor = PayhipMonitor()
 
     dpg.create_context()
-    dpg.create_viewport(title="Payhip Monitor", width=800, height=600)
+    dpg.create_viewport(title="Payhip Discord Bot by RikkoMatsumatoOfficial", width=800, height=600)
 
     with dpg.window(label="Main Window", tag="main_window"):
         with dpg.group(horizontal=True):
