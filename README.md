@@ -5,7 +5,7 @@ This is Unofficial Discord bot for [Payhip](https://payhip.com) to check if some
 [Invite My Bot](https://discord.com/oauth2/authorize?client_id=1389026135421091880&scope=bot+applications.commands&permissions=8)
 
 > [!IMPORTANT]
-> If you wanted to Configure my Discord Bot, Pls Add This Client ID: **1389026135421091880**
+> If you wanted to Configure my Discord Bot, Pls Add This Client ID into config.ini: **1389026135421091880**
 > 
 > Also please invite my bot to working properly!!!
 ## Donations
