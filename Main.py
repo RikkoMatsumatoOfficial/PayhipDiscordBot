@@ -86,8 +86,8 @@ class PayhipMonitor:
             color=discord.Color.green(),
             description=f"**Order ID:** `{order.id}`"
         )
-        embed.add_field(name="Total", value=f"${order.total}")
-        embed.add_field(name="Customer(EMAIL)", value=order.customer_email)
+        embed.add_field(name="Total: ", value=f"${order.total}")
+        embed.add_field(name="Customer(EMAIL): ", value=order.customer_email)
         
         if order.items:
             products = "\n".join(f"- {item.get('product_name', 'Unknown')}" for item in order.items)
